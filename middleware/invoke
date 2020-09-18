@@ -3,6 +3,6 @@
 #
 # simtool
 #
-/usr/bin/invoke_app "$@" -t gitlocalsimtool \
-                         -C "start_jupyter -t -T @tool gitlocalsimtoolExample.ipynb" \
+/usr/bin/invoke_app "$@" -t githubsimtool4 \
+                         -C "start_jupyter -t -T @tool githubsimtool4Example.ipynb" \
                          -u anaconda-6
